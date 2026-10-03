@@ -28,42 +28,100 @@ GRADE_POINTS = {
 }
 
 
+def match_requirement_to_user_subject(req_str: str) -> str:
+    """
+    Rygorystycznie mapuje ciąg tekstowy z wymogów klasy na konkretny przedmiot ze świadectwa ucznia.
+    Zapobiega przypadkowemu zastępowaniu przedmiotów ścisłych/humanistycznych przez języki obce oraz myleniu WF z Fizyką.
+    """
+    req = str(req_str).lower().strip()
+
+    # 1. NAJPIERW sprawdzamy nazwy wielowyrazowe i skróty (zanim krótkie fragmenty jak "fiz" przechwycą słowa)
+    if "wychowanie fizyczne" in req or req == "wf":
+        return "Wychowanie fizyczne"
+    if "edukacja dla bezpieczeństwa" in req or req == "edb":
+        return "Edukacja dla bezpieczeństwa"
+    if "wiedza o społeczeństwie" in req or "wos" in req:
+        return "Wiedza o społeczeństwie"
+    if "drugi" in req:
+        return "Drugi język obcy"
+
+    # 2. Przedmioty jednowyrazowe (ścisłe dopasowanie po nazwie/skrócie)
+    if "fizyka" in req or req == "fiz":
+        return "Fizyka"
+    if "geografia" in req or "geo" in req:
+        return "Geografia"
+    if "historia" in req or "hist" in req:
+        return "Historia"
+    if "biologia" in req or "biol" in req:
+        return "Biologia"
+    if "chemia" in req or "chem" in req:
+        return "Chemia"
+    if "informatyka" in req or "inf" in req:
+        return "Informatyka"
+    if "muzyka" in req:
+        return "Muzyka"
+    if "plastyka" in req:
+        return "Plastyka"
+    if "matematyka" in req or "mat" in req:
+        return "Matematyka"
+    if "polski" in req:
+        return "Język polski"
+
+    # 3. Pierwszy (wiodący) język obcy
+    lang_keywords = ["angielski", "niemiecki", "hiszpański", "francuski", "włoski", "rosyjski", "łaciński",
+                     "język obcy", "ang"]
+    if any(lang in req for lang in lang_keywords):
+        return "Pierwszy język obcy"
+
+    return None
+
+
 def calculate_class_score(grades: dict, exam_pts: float, achieve_pts: float, cls_info: dict):
     """
     Wylicza punkty rekrutacyjne dedykowane dla konkretnej klasy:
     - Język polski (obowiązkowy)
     - Matematyka (obowiązkowa)
-    - 2 przedmioty wskazane przez profil klasy (lub 2 najwyżej punktowane z pozostałych)
+    - 2 przedmioty wskazane przez profil/wymagania klasy (lub najlepsze pozostałe w przypadku braku danych)
     """
     p_pol = GRADE_POINTS.get(grades.get("Język polski", "4 (dobry)"), 14)
     p_mat = GRADE_POINTS.get(grades.get("Matematyka", "4 (dobry)"), 14)
 
-    # Przedmioty rozszerzone/punktowane w danej klasie
-    class_extensions = [e.lower() for e in cls_info.get("extensions", [])]
+    # Najpierw sprawdzamy, czy w JSONie jest jawna lista 'counted_subjects', a jeśli nie – bierzemy 'extensions'
+    req_list = cls_info.get("counted_subjects") or cls_info.get("extensions") or []
 
-    other_candidates = []
-    for sub_name, grade_val in grades.items():
-        if sub_name in ["Język polski", "Matematyka"]:
-            continue
+    counted_subjects = []
+    used_user_subject_keys = ["Język polski", "Matematyka"]
+    total_other_pts = 0
 
-        pts = GRADE_POINTS.get(grade_val, 0)
-        # Sprawdzamy czy przedmiot ze świadectwa pokrywa się z profilem klasy
-        is_matched = any(ext in sub_name.lower() or sub_name.lower() in ext for ext in class_extensions)
-        other_candidates.append({
-            "subject": sub_name,
-            "pts": pts,
-            "matched": is_matched
-        })
+    # Krok A: Dopasowanie wg wymagań klasy
+    for req in req_list:
+        if len(counted_subjects) >= 2:
+            break
 
-    # Sortowanie: najpierw te, które pasują do profilu klasy, a potem te z najwyższą oceną
-    other_candidates.sort(key=lambda x: (x["matched"], x["pts"]), reverse=True)
+        mapped_user_sub = match_requirement_to_user_subject(req)
+        if mapped_user_sub and mapped_user_sub not in used_user_subject_keys:
+            pts = GRADE_POINTS.get(grades.get(mapped_user_sub, ""), 0)
+            total_other_pts += pts
+            counted_subjects.append(mapped_user_sub)
+            used_user_subject_keys.append(mapped_user_sub)
 
-    # Wybieramy 2 najlepsze pasujące przedmioty
-    top_2 = other_candidates[:2]
-    p_others = sum(item["pts"] for item in top_2)
-    counted_subjects = [item["subject"] for item in top_2]
+    # Krok B: Jeśli profil podał mniej niż 2 pasujące przedmioty, uzupełniamy najwyższymi ocenami z pozostałych
+    if len(counted_subjects) < 2:
+        remaining = []
+        for sub, val in grades.items():
+            if sub not in used_user_subject_keys:
+                remaining.append((GRADE_POINTS.get(val, 0), sub))
 
-    total_score = min(200.0, exam_pts + p_pol + p_mat + p_others + achieve_pts)
+        # Sortowanie po punktach malejąco
+        remaining.sort(key=lambda x: x[0], reverse=True)
+
+        needed = 2 - len(counted_subjects)
+        for pts, sub in remaining[:needed]:
+            total_other_pts += pts
+            counted_subjects.append(sub)
+            used_user_subject_keys.append(sub)
+
+    total_score = min(200.0, exam_pts + p_pol + p_mat + total_other_pts + achieve_pts)
     return total_score, counted_subjects
 
 
@@ -84,12 +142,21 @@ with tab1:
 
     with col_ex:
         st.subheader("1. Wyniki z Egzaminu Ósmoklasisty (%)")
-        ex_pol = st.number_input("Język polski (%)", min_value=0, max_value=100, value=80)
-        ex_mat = st.number_input("Matematyka (%)", min_value=0, max_value=100, value=75)
-        ex_eng = st.number_input("Język obcy (%)", min_value=0, max_value=100, value=90)
 
-        exam_pts = (ex_pol * 0.35) + (ex_mat * 0.35) + (ex_eng * 0.30)
-        st.info(f"Punkty z egzaminów: **{exam_pts:.2f} / 100 pkt**")
+        ex_pol = st.number_input("Język polski (%)", min_value=0, max_value=100, value=80)
+        pts_pol = ex_pol * 0.35
+        st.caption(f"→ **{pts_pol:.2f} pkt** rekrutacyjnych (wynik % × 0,35)")
+
+        ex_mat = st.number_input("Matematyka (%)", min_value=0, max_value=100, value=75)
+        pts_mat = ex_mat * 0.35
+        st.caption(f"→ **{pts_mat:.2f} pkt** rekrutacyjnych (wynik % × 0,35)")
+
+        ex_eng = st.number_input("Język obcy (%)", min_value=0, max_value=100, value=90)
+        pts_eng = ex_eng * 0.30
+        st.caption(f"→ **{pts_eng:.2f} pkt** rekrutacyjnych (wynik % × 0,30)")
+
+        exam_pts = pts_pol + pts_mat + pts_eng
+        st.info(f"Suma punktów z egzaminów: **{exam_pts:.2f} / 100 pkt**")
 
     with col_ach:
         st.subheader("2. Dodatkowe osiągnięcia")
@@ -113,7 +180,8 @@ with tab1:
     with col_g1:
         user_grades["Język polski"] = st.selectbox("Język polski", grade_list, index=1)
         user_grades["Matematyka"] = st.selectbox("Matematyka", grade_list, index=1)
-        user_grades["Język obcy"] = st.selectbox("Język obcy", grade_list, index=1)
+        user_grades["Pierwszy język obcy"] = st.selectbox("Pierwszy język obcy", grade_list, index=1)
+        user_grades["Drugi język obcy"] = st.selectbox("Drugi język obcy", grade_list, index=1)
         user_grades["Historia"] = st.selectbox("Historia", grade_list, index=2)
 
     with col_g2:
@@ -121,10 +189,15 @@ with tab1:
         user_grades["Chemia"] = st.selectbox("Chemia", grade_list, index=2)
         user_grades["Fizyka"] = st.selectbox("Fizyka", grade_list, index=2)
         user_grades["Geografia"] = st.selectbox("Geografia", grade_list, index=1)
+        user_grades["Informatyka"] = st.selectbox("Informatyka", grade_list, index=1)
 
     with col_g3:
-        user_grades["Informatyka"] = st.selectbox("Informatyka", grade_list, index=0)
-        user_grades["Wiedza o społeczeństwie"] = st.selectbox("Wiedza o społeczeństwie", grade_list, index=2)
+        user_grades["Wiedza o społeczeństwie"] = st.selectbox("Wiedza o społeczeństwie (WOS)", grade_list, index=2)
+        user_grades["Wychowanie fizyczne"] = st.selectbox("Wychowanie fizyczne (WF)", grade_list, index=1)
+        user_grades["Muzyka"] = st.selectbox("Muzyka", grade_list, index=1)
+        user_grades["Plastyka"] = st.selectbox("Plastyka", grade_list, index=1)
+        user_grades["Edukacja dla bezpieczeństwa"] = st.selectbox("Edukacja dla bezpieczeństwa (EDB)", grade_list,
+                                                                  index=1)
 
     # Zapis stanu w sesji
     st.session_state['exam_pts'] = exam_pts
@@ -146,7 +219,7 @@ with tab2:
     col_f1, col_f2, col_f3 = st.columns([2, 1, 2])
 
     with col_f1:
-        search_query = st.text_input("Szukaj po nazwie szkoły:", placeholder="np. V Liceum")
+        search_query = st.text_input("Szukaj po nazwie szkoły:", placeholder="np. I Liceum")
 
     with col_f2:
         school_type = st.selectbox("Typ szkoły:", ["wszystkie", "liceum", "technikum", "branzowa"])
