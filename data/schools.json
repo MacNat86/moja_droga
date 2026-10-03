@@ -1,0 +1,7636 @@
+[
+  {
+    "id": "i_liceum_ogolnoksztalcace_w_krakowie",
+    "name": "I Liceum Ogólnokształcące w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (Matematyczno-Fizyczno-Informatyczny)",
+        "profile": "Matematyczno-Fizyczno-Informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 176.1
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (Matematyczno-Fizyczno-Informatyczny)",
+        "profile": "Matematyczno-Fizyczno-Informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 175.1
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (Biologiczno-Chemiczny)",
+        "profile": "Biologiczno-Chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 175.1
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (Matematyczno-Biologiczno-Chemiczny)",
+        "profile": "Matematyczno-Biologiczno-Chemiczny",
+        "extensions": [
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 177.45
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (Historia-Angielski-WOS)",
+        "profile": "Historia-Angielski-WOS",
+        "extensions": [
+          "historia",
+          "j. angielski",
+          "WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 168.9
+        }
+      },
+      {
+        "class_id": "G",
+        "name": "Klasa G (Matematyczno-Geograficzno-Językowy)",
+        "profile": "Matematyczno-Geograficzno-Językowy",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.8
+        }
+      },
+      {
+        "class_id": "K",
+        "name": "Klasa K (Klasyczny)",
+        "profile": "Klasyczny",
+        "extensions": [
+          "historia",
+          "język łaciński",
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.55
+        }
+      }
+    ]
+  },
+  {
+    "id": "i_liceum_sportowe",
+    "name": "I Liceum Sportowe",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (Piłki siatkowej dziewcząt)",
+        "profile": "Piłki siatkowej dziewcząt",
+        "extensions": [
+          "geografia",
+          "język angielski",
+          "biologia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 65.0
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (Piłki siatkowej chłopców)",
+        "profile": "Piłki siatkowej chłopców",
+        "extensions": [
+          "geografia",
+          "język angielski",
+          "biologia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 67.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ii_liceum_ogolnoksztalcace",
+    "name": "II Liceum Ogólnokształcące",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (matematyka, fizyka, informatyka)",
+        "profile": "matematyka, fizyka, informatyka",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.9
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (matematyka, chemia, fizyka)",
+        "profile": "matematyka, chemia, fizyka",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.9
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (matematyka, biologia, chemia)",
+        "profile": "matematyka, biologia, chemia",
+        "extensions": [
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 179.65
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (matematyka, geografia, j. angielski)",
+        "profile": "matematyka, geografia, j. angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 173.7
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (artystyczny)",
+        "profile": "artystyczny",
+        "extensions": [
+          "matematyka",
+          "język angielski",
+          "historia sztuki"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.2
+        }
+      },
+      {
+        "class_id": "F",
+        "name": "Klasa F (matematyczno-fizyczny)",
+        "profile": "matematyczno-fizyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 174.45
+        }
+      },
+      {
+        "class_id": "G",
+        "name": "Klasa G (matematyczno-biologiczno-chemiczny)",
+        "profile": "matematyczno-biologiczno-chemiczny",
+        "extensions": [
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 175.4
+        }
+      },
+      {
+        "class_id": "H",
+        "name": "Klasa H (medialno-prawny)",
+        "profile": "medialno-prawny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "iii_liceum_ogolnoksztalcace",
+    "name": "III Liceum Ogólnokształcące",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (j. polski, biologia, j. angielski)",
+        "profile": "j. polski, biologia, j. angielski",
+        "extensions": [
+          "j. polski",
+          "biologia",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.7
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (j. polski, j. angielski, WOS)",
+        "profile": "j. polski, j. angielski, WOS",
+        "extensions": [
+          "j. polski",
+          "j. angielski",
+          "WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "Wos",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 163.95
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (biologia, chemia)",
+        "profile": "biologia, chemia",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.05
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (matematyka, biologia, chemia)",
+        "profile": "matematyka, biologia, chemia",
+        "extensions": [
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 173.4
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (matematyka, geografia, j. angielski)",
+        "profile": "matematyka, geografia, j. angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.1
+        }
+      },
+      {
+        "class_id": "F",
+        "name": "Klasa F (matematyka, fizyka)",
+        "profile": "matematyka, fizyka",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "iv_liceum_ogolnoksztalcace",
+    "name": "IV Liceum Ogólnokształcące",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (matematyka, fizyka, informatyka)",
+        "profile": "matematyka, fizyka, informatyka",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.7
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (matematyka, fizyka, informatyka)",
+        "profile": "matematyka, fizyka, informatyka",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.0
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (matematyka, geografia, j. angielski)",
+        "profile": "matematyka, geografia, j. angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "j. angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.0
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (matematyka, biologia, chemia)",
+        "profile": "matematyka, biologia, chemia",
+        "extensions": [
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 176.5
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.0
+        }
+      },
+      {
+        "class_id": "F",
+        "name": "Klasa F (politologiczny)",
+        "profile": "politologiczny",
+        "extensions": [
+          "geografia",
+          "historia",
+          "WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 163.55
+        }
+      },
+      {
+        "class_id": "GH",
+        "name": "Klasa GH (geografia, j. angielski, j. hiszpański)",
+        "profile": "geografia, j. angielski, j. hiszpański",
+        "extensions": [
+          "geografia",
+          "j. angielski",
+          "j. hiszpański"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.95
+        }
+      },
+      {
+        "class_id": "GN",
+        "name": "Klasa GN (geografia, j. angielski, j. niemiecki)",
+        "profile": "geografia, j. angielski, j. niemiecki",
+        "extensions": [
+          "geografia",
+          "j. angielski",
+          "j. niemiecki"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.05
+        }
+      }
+    ]
+  },
+  {
+    "id": "v_liceum_ogolnoksztalcace_im_augusta_witkowskiego",
+    "name": "V Liceum Ogólnokształcące im. Augusta Witkowskiego",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (prawniczo-humanistyczny)",
+        "profile": "prawniczo-humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.2
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (prawniczo-humanistyczny)",
+        "profile": "prawniczo-humanistyczny",
+        "extensions": [
+          "historia",
+          "wiedza o społeczeństwie",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 167.6
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-chemiczny)",
+        "profile": "matematyczno-chemiczny",
+        "extensions": [
+          "matematyka",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 176.55
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 179.25
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 195.2
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 180.5
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 176.25
+        }
+      },
+      {
+        "class_id": "h",
+        "name": "Klasa h (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 180.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "vi_liceum_ogolnoksztalcace_im_adama_mickiewicza_w_krakowie",
+    "name": "VI Liceum Ogólnokształcące im. Adama Mickiewicza w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (dwujęzyczna z językiem angielskim ekonomiczna)",
+        "profile": "dwujęzyczna z językiem angielskim ekonomiczna",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.75
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (dwujęzyczna z językiem angielskim)",
+        "profile": "dwujęzyczna z językiem angielskim",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 175.7
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (ogólnodostępna artystyczna)",
+        "profile": "ogólnodostępna artystyczna",
+        "extensions": [
+          "język polski",
+          "matematyka",
+          "historia sztuki"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 168.9
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (ogólnodostępna matematyczno-fizyczna)",
+        "profile": "ogólnodostępna matematyczno-fizyczna",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.7
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (ogólnodostępna humanistyczna)",
+        "profile": "ogólnodostępna humanistyczna",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.15
+        }
+      },
+      {
+        "class_id": "h1",
+        "name": "Klasa h1 (wstępna przygotowująca do nauki w oddziale dwujęzycznym z językiem hiszpańskim)",
+        "profile": "wstępna przygotowująca do nauki w oddziale dwujęzycznym z językiem hiszpańskim",
+        "extensions": [
+          "geografia",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 167.8
+        }
+      },
+      {
+        "class_id": "h2",
+        "name": "Klasa h2 (wstępna przygotowująca do nauki w oddziale dwujęzycznym z językiem hiszpańskim)",
+        "profile": "wstępna przygotowująca do nauki w oddziale dwujęzycznym z językiem hiszpańskim",
+        "extensions": [
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 168.7
+        }
+      },
+      {
+        "class_id": "m1",
+        "name": "Klasa m1 (międzynarodowa)",
+        "profile": "międzynarodowa",
+        "extensions": [
+          "brak stałych rozszerzeń w klasie I — wybór HL od klasy III"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.1
+        }
+      },
+      {
+        "class_id": "m2",
+        "name": "Klasa m2 (międzynarodowa)",
+        "profile": "międzynarodowa",
+        "extensions": [
+          "brak stałych rozszerzeń w klasie I — wybór HL od klasy III"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "vii_liceum_ogolnoksztalcace_im_zofii_nalkowskiej_w_krakowie",
+    "name": "VII Liceum Ogólnokształcące im. Zofii Nałkowskiej w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (polsko-angielsko-historyczny)",
+        "profile": "polsko-angielsko-historyczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.8
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (matematyczno-geograficzno-historyczny)",
+        "profile": "matematyczno-geograficzno-historyczny",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.3
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.1
+        }
+      },
+      {
+        "class_id": "d1",
+        "name": "Klasa d1 (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.7
+        }
+      },
+      {
+        "class_id": "d2",
+        "name": "Klasa d2 (matematyczno-geograficzno-niemiecki)",
+        "profile": "matematyczno-geograficzno-niemiecki",
+        "extensions": [
+          "język niemiecki",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język niemiecki",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.55
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.2
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (biologiczno-chemiczno-angielski)",
+        "profile": "biologiczno-chemiczno-angielski",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "viii_liceum_ogolnoksztalcace_im_stanislawa_wyspianskiego_w_krakowie",
+    "name": "VIII Liceum Ogólnokształcące im. Stanisława Wyspiańskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 177.55
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 177.55
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 180.65
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-informatyczno-angielski)",
+        "profile": "matematyczno-informatyczno-angielski",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 176.8
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 174.8
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (geograficzno-matematyczno-angielski)",
+        "profile": "geograficzno-matematyczno-angielski",
+        "extensions": [
+          "geografia",
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 174.8
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (polsko-historyczno-WOS)",
+        "profile": "polsko-historyczno-WOS",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.1
+        }
+      }
+    ]
+  },
+  {
+    "id": "ix_liceum_ogolnoksztalcace_im_zygmunta_wroblewskiego_w_krakowie",
+    "name": "IX Liceum Ogólnokształcące im. Zygmunta Wróblewskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a1",
+        "name": "Klasa a1 (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.5
+        }
+      },
+      {
+        "class_id": "a2",
+        "name": "Klasa a2 (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.3
+        }
+      },
+      {
+        "class_id": "b1",
+        "name": "Klasa b1 (biologiczno-angielsko-polski)",
+        "profile": "biologiczno-angielsko-polski",
+        "extensions": [
+          "biologia",
+          "język angielski",
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.45
+        }
+      },
+      {
+        "class_id": "b2",
+        "name": "Klasa b2 (biologiczno-angielsko-polski)",
+        "profile": "biologiczno-angielsko-polski",
+        "extensions": [
+          "biologia",
+          "język angielski",
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.8
+        }
+      },
+      {
+        "class_id": "c1",
+        "name": "Klasa c1 (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.3
+        }
+      },
+      {
+        "class_id": "c2",
+        "name": "Klasa c2 (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.3
+        }
+      },
+      {
+        "class_id": "d1",
+        "name": "Klasa d1 (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.15
+        }
+      },
+      {
+        "class_id": "d2",
+        "name": "Klasa d2 (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 160.55
+        }
+      }
+    ]
+  },
+  {
+    "id": "x_liceum_ogolnoksztalcace_im_komisji_edukacji_narodowej_w_krakowie",
+    "name": "X Liceum Ogólnokształcące im. Komisji Edukacji Narodowej w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.85
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (polsko-biologiczno-angielski)",
+        "profile": "polsko-biologiczno-angielski",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.45
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 173.0
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-biologiczno-chemiczny)",
+        "profile": "matematyczno-biologiczno-chemiczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 173.2
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.7
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (matematyczno-fizyczno-angielski)",
+        "profile": "matematyczno-fizyczno-angielski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.65
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "xi_liceum_ogolnoksztalcace_im_marii_dabrowskiej_w_krakowie",
+    "name": "XI Liceum Ogólnokształcące im. Marii Dąbrowskiej w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (matematyczno-informatyczny)",
+        "profile": "matematyczno-informatyczny",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.3
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (turystyczny)",
+        "profile": "turystyczny",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.35
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.55
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (językowy)",
+        "profile": "językowy",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "język hiszpański / język włoski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "drugi język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 161.0
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (menadżerski)",
+        "profile": "menadżerski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.75
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (humanistyczno-pedagogiczny)",
+        "profile": "humanistyczno-pedagogiczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "xii_liceum_ogolnoksztalcace_im_cypriana_norwida_w_krakowie",
+    "name": "XII Liceum Ogólnokształcące im. Cypriana Norwida w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (polsko-historyczny)",
+        "profile": "polsko-historyczny",
+        "extensions": [
+          "język polski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia lub wiedza o społeczeństwie",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 151.55
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (polsko-biologiczny)",
+        "profile": "polsko-biologiczny",
+        "extensions": [
+          "język polski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub wiedza o społeczeństwie",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 158.4
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub chemia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.95
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (biologiczno-geograficzny)",
+        "profile": "biologiczno-geograficzny",
+        "extensions": [
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 153.6
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (geograficzno-angielski)",
+        "profile": "geograficzno-angielski",
+        "extensions": [
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia lub wiedza o społeczeństwie",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.25
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (matematyczno-chemiczny)",
+        "profile": "matematyczno-chemiczny",
+        "extensions": [
+          "matematyka",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia lub fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 152.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "xiii_liceum_ogolnoksztalcace_im_bohaterow_westerplatte_w_krakowie",
+    "name": "XIII Liceum Ogólnokształcące im. Bohaterów Westerplatte w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.5
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (matematyczno-geograficzny)",
+        "profile": "matematyczno-geograficzny",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.75
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-chemiczny)",
+        "profile": "matematyczno-chemiczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.0
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-fizyczny)",
+        "profile": "matematyczno-fizyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 169.05
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (przyrodniczo-humanistyczny)",
+        "profile": "przyrodniczo-humanistyczny",
+        "extensions": [
+          "biologia",
+          "język polski",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 168.85
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (europejski)",
+        "profile": "europejski",
+        "extensions": [
+          "WOS",
+          "geografia",
+          "język włoski lub język niemiecki"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "WOS",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "xiv_liceum_ogolnoksztalcace_im_mikolaja_kopernika_w_krakowie",
+    "name": "XIV Liceum Ogólnokształcące im. Mikołaja Kopernika w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (medyczna)",
+        "profile": "medyczna",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 155.35
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biomedyczno-środowiskowa)",
+        "profile": "biomedyczno-środowiskowa",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 142.85
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (prawniczo-medialna)",
+        "profile": "prawniczo-medialna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 139.5
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (psychologiczna)",
+        "profile": "psychologiczna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 144.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "xv_liceum_ogolnoksztalcace_im_marii_sklodowskiej_curie_w_krakowie",
+    "name": "XV Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 150.85
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (menadżerski)",
+        "profile": "menadżerski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 156.95
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-medyczny)",
+        "profile": "biologiczno-medyczny",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 163.6
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (przyrodniczy)",
+        "profile": "przyrodniczy",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 155.4
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (mat-inf-biz)",
+        "profile": "mat-inf-biz",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "biznes i zarządzanie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 153.55
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (turystyczno-językowy)",
+        "profile": "turystyczno-językowy",
+        "extensions": [
+          "język angielski",
+          "język hiszpański",
+          "język włoski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 152.0
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (geo-WOS-ang)",
+        "profile": "geo-WOS-ang",
+        "extensions": [
+          "język angielski",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 122.75
+        }
+      }
+    ]
+  },
+  {
+    "id": "xvi_liceum_ogolnoksztalcace_im_krzysztofa_kamila_baczynskiego_w_krakowie",
+    "name": "XVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a1",
+        "name": "Klasa a1 (psychologiczno-pedagogiczna)",
+        "profile": "psychologiczno-pedagogiczna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 138.0
+        }
+      },
+      {
+        "class_id": "a2",
+        "name": "Klasa a2 (psychologiczno-pedagogiczna)",
+        "profile": "psychologiczno-pedagogiczna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 131.3
+        }
+      },
+      {
+        "class_id": "b1",
+        "name": "Klasa b1 (matematyczno-geograficzna)",
+        "profile": "matematyczno-geograficzna",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 115.9
+        }
+      },
+      {
+        "class_id": "b2",
+        "name": "Klasa b2 (matematyczno-geograficzna)",
+        "profile": "matematyczno-geograficzna",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 106.7
+        }
+      },
+      {
+        "class_id": "c1",
+        "name": "Klasa c1 (biologiczno-chemiczna)",
+        "profile": "biologiczno-chemiczna",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 127.6
+        }
+      },
+      {
+        "class_id": "c2",
+        "name": "Klasa c2 (biologiczno-chemiczna)",
+        "profile": "biologiczno-chemiczna",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 130.3
+        }
+      },
+      {
+        "class_id": "d1",
+        "name": "Klasa d1 (oddział przygotowania wojskowego)",
+        "profile": "oddział przygotowania wojskowego",
+        "extensions": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.95
+        }
+      },
+      {
+        "class_id": "d2",
+        "name": "Klasa d2 (oddział przygotowania wojskowego)",
+        "profile": "oddział przygotowania wojskowego",
+        "extensions": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 85.85
+        }
+      },
+      {
+        "class_id": "e1",
+        "name": "Klasa e1 (turystyczna)",
+        "profile": "turystyczna",
+        "extensions": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 127.3
+        }
+      },
+      {
+        "class_id": "e2",
+        "name": "Klasa e2 (turystyczna)",
+        "profile": "turystyczna",
+        "extensions": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 122.6
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (mundurowa)",
+        "profile": "mundurowa",
+        "extensions": [
+          "język angielski",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 68.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "xvii_liceum_ogolnoksztalcace_im_mlodej_polski_w_krakowie",
+    "name": "XVII Liceum Ogólnokształcące im. Młodej Polski w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "of",
+        "name": "Klasa of (wstępna – przygotowująca do klasy dwujęzycznej z językiem francuskim)",
+        "profile": "wstępna – przygotowująca do klasy dwujęzycznej z językiem francuskim",
+        "extensions": [
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 123.25
+        }
+      },
+      {
+        "class_id": "a",
+        "name": "Klasa a (dwujęzyczna z językiem francuskim, biologiczno-geograficzna)",
+        "profile": "dwujęzyczna z językiem francuskim, biologiczno-geograficzna",
+        "extensions": [
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 156.55
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (dziennikarska)",
+        "profile": "dziennikarska",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 139.3
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (ekonomiczna)",
+        "profile": "ekonomiczna",
+        "extensions": [
+          "matematyka",
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 138.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "xviii_liceum_ogolnoksztalcace_w_krakowie",
+    "name": "XVIII Liceum Ogólnokształcące w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (analiza danych i geoprzestrzeń)",
+        "profile": "analiza danych i geoprzestrzeń",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 158.4
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (algorytmika i technologie przyszłości)",
+        "profile": "algorytmika i technologie przyszłości",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka lub informatyka lub język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.3
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (humanistyka i media)",
+        "profile": "humanistyka i media",
+        "extensions": [
+          "historia",
+          "język polski",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia lub język obcy",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 136.8
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (psychologia i komunikacja)",
+        "profile": "psychologia i komunikacja",
+        "extensions": [
+          "biologia",
+          "język polski",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 152.15
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (ekonomia i nauki społeczne)",
+        "profile": "ekonomia i nauki społeczne",
+        "extensions": [
+          "geografia",
+          "wiedza o społeczeństwie",
+          "biznes i zarządzanie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "xx_liceum_ogolnoksztalcace_im_leopolda_staffa_w_krakowie",
+    "name": "XX Liceum Ogólnokształcące im. Leopolda Staffa w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.2
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 167.1
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (geograficzno-angielsko-niemiecki)",
+        "profile": "geograficzno-angielsko-niemiecki",
+        "extensions": [
+          "język angielski",
+          "język niemiecki",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy lub język niemiecki"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 155.85
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-fizyczno-informatyczny)",
+        "profile": "matematyczno-fizyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.1
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 167.6
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (WOS-owo-językowy)",
+        "profile": "WOS-owo-językowy",
+        "extensions": [
+          "język angielski",
+          "język francuski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "wiedza o społeczeństwie",
+          "język obcy lub język francuski"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 157.75
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxi_liceum_ogolnoksztalcace_im_stanislawa_ignacego_witkiewicza_witkacego_w_krakowie",
+    "name": "XXI Liceum Ogólnokształcące im. Stanisława Ignacego Witkiewicza „Witkacego” w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "alfa",
+        "name": "Klasa alfa (polsko-biologiczno-angielsko-filozoficzny)",
+        "profile": "polsko-biologiczno-angielsko-filozoficzny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia",
+          "filozofia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub język obcy",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 131.1
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxii_liceum_ogolnoksztalcace_im_generala_bronislawa_ducha_w_krakowie",
+    "name": "XXII Liceum Ogólnokształcące im. Generała Bronisława Ducha w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "1o",
+        "name": "Klasa 1o (biznes i zarządzanie)",
+        "profile": "biznes i zarządzanie",
+        "extensions": [
+          "informatyka",
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka lub geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 53.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxiii_liceum_ogolnoksztalcace_im_plk_pil_stanislawa_skarzynskiego_w_krakowie",
+    "name": "XXIII Liceum Ogólnokształcące im. płk. pil. Stanisława Skarżyńskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (lotnicza)",
+        "profile": "lotnicza",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 157.15
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (turystyczna)",
+        "profile": "turystyczna",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 149.55
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (humanistyczna)",
+        "profile": "humanistyczna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia sztuki"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 137.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxiv_liceum_ogolnoksztalcace_im_jana_pawla_ii_w_krakowie",
+    "name": "XXIV Liceum Ogólnokształcące im. Jana Pawła II w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (ekonomiczno-społeczna)",
+        "profile": "ekonomiczno-społeczna",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "biznes i zarządzanie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 153.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (fotograficzno-filmowa)",
+        "profile": "fotograficzno-filmowa",
+        "extensions": [
+          "język polski",
+          "historia",
+          "edukacja filmowa"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 142.55
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (proobywatelska)",
+        "profile": "proobywatelska",
+        "extensions": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 141.5
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (biologiczno-chemiczna z promocją zdrowia)",
+        "profile": "biologiczno-chemiczna z promocją zdrowia",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 158.55
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (turystyczna)",
+        "profile": "turystyczna",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 152.75
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (matematyczno-technologiczna)",
+        "profile": "matematyczno-technologiczna",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 151.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxv_liceum_ogolnoksztalcace_im_stefana_zeromskiego_w_krakowie",
+    "name": "XXV Liceum Ogólnokształcące im. Stefana Żeromskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (mundurowa bezpieczeństwa publicznego)",
+        "profile": "mundurowa bezpieczeństwa publicznego",
+        "extensions": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 113.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (mundurowa wojskowa)",
+        "profile": "mundurowa wojskowa",
+        "extensions": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 106.15
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (mundurowa wojskowa)",
+        "profile": "mundurowa wojskowa",
+        "extensions": [
+          "język polski",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 95.9
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (Oddział Przygotowania Wojskowego)",
+        "profile": "Oddział Przygotowania Wojskowego",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 127.05
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (mundurowa bezpieczeństwa publicznego)",
+        "profile": "mundurowa bezpieczeństwa publicznego",
+        "extensions": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 98.4
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (mundurowa MSWiA – bezpieczeństwa publicznego)",
+        "profile": "mundurowa MSWiA – bezpieczeństwa publicznego",
+        "extensions": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 72.05
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxvi_liceum_ogolnoksztalcace_w_zespole_szkol_chemicznych_im_marii_sklodowskiej_curie_w_krakowie",
+    "name": "XXVI Liceum Ogólnokształcące w Zespole Szkół Chemicznych im. Marii Skłodowskiej-Curie w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (biologiczno-polonistyczny z językiem migowym)",
+        "profile": "biologiczno-polonistyczny z językiem migowym",
+        "extensions": [
+          "język polski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 150.75
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-chemiczny z analizą medyczną i sądową)",
+        "profile": "biologiczno-chemiczny z analizą medyczną i sądową",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.85
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczny z analizą medyczną i sądową)",
+        "profile": "biologiczno-chemiczny z analizą medyczną i sądową",
+        "extensions": [
+          "biologia",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxvii_liceum_ogolnoksztalcace_im_dra_henryka_jordana_w_krakowie",
+    "name": "XXVII Liceum Ogólnokształcące im. dra Henryka Jordana w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (humanistyczno-medialna)",
+        "profile": "humanistyczno-medialna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia lub wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 161.3
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (geograficzno-turystyczna)",
+        "profile": "geograficzno-turystyczna",
+        "extensions": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.1
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-biznesowa)",
+        "profile": "matematyczno-biznesowa",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "biznes i zarządzanie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia lub informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.35
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (biologiczno-chemiczna)",
+        "profile": "biologiczno-chemiczna",
+        "extensions": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.55
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (biologiczno-matematyczna)",
+        "profile": "biologiczno-matematyczna",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.85
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (geograficzno-matematyczna)",
+        "profile": "geograficzno-matematyczna",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.55
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxviii_liceum_ogolnoksztalcace_im_wojciecha_bednarskiego_w_krakowie",
+    "name": "XXVIII Liceum Ogólnokształcące im. Wojciecha Bednarskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (psychologiczna)",
+        "profile": "psychologiczna",
+        "extensions": [
+          "język polski",
+          "biologia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 139.05
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (ekonomiczna)",
+        "profile": "ekonomiczna",
+        "extensions": [
+          "geografia",
+          "biznes i zarządzanie",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 134.8
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (dyplomatyczna)",
+        "profile": "dyplomatyczna",
+        "extensions": [
+          "historia",
+          "wiedza o społeczeństwie",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 110.15
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technologiczna)",
+        "profile": "technologiczna",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 141.35
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxix_liceum_ogolnoksztalcace_im_krzysztofa_kieslowskiego_w_krakowie",
+    "name": "XXIX Liceum Ogólnokształcące im. Krzysztofa Kieślowskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (integracyjna)",
+        "profile": "integracyjna",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 84.35
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxx_liceum_ogolnoksztalcace_w_krakowie_im_sw_brata_alberta_adama_chmielowskiego",
+    "name": "XXX Liceum Ogólnokształcące w Krakowie im. św. Brata Alberta – Adama Chmielowskiego",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (sportowa – profil taneczny)",
+        "profile": "sportowa – profil taneczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 58.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (inżynierska ze sztuczną inteligencją)",
+        "profile": "inżynierska ze sztuczną inteligencją",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 103.2
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (turystyczno-językowy)",
+        "profile": "turystyczno-językowy",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 128.8
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (humanistyczny z elementami psychologii)",
+        "profile": "humanistyczny z elementami psychologii",
+        "extensions": [
+          "język polski",
+          "historia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "historia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 130.45
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (promocja zdrowia)",
+        "profile": "promocja zdrowia",
+        "extensions": [
+          "język polski",
+          "biologia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 140.35
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (medyczny)",
+        "profile": "medyczny",
+        "extensions": [
+          "chemia",
+          "biologia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 137.35
+        }
+      }
+    ]
+  },
+  {
+    "id": "xxxi_liceum_ogolnoksztalcace_im_romana_ingardena_w_krakowie",
+    "name": "XXXI Liceum Ogólnokształcące im. Romana Ingardena w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (programowanie)",
+        "profile": "programowanie",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (game dev (projektowanie gier))",
+        "profile": "game dev (projektowanie gier)",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 157.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "liceum_ogolnoksztalcace_mistrzostwa_sportowego_w_krakowie",
+    "name": "Liceum Ogólnokształcące Mistrzostwa Sportowego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (pływanie – sportowa)",
+        "profile": "pływanie – sportowa",
+        "extensions": [
+          "biologia lub geografia",
+          "matematyka lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 575.0
+        }
+      },
+      {
+        "class_id": "b2",
+        "name": "Klasa b2 (piłka nożna – sportowa, chłopcy)",
+        "profile": "piłka nożna – sportowa, chłopcy",
+        "extensions": [
+          "biologia lub geografia",
+          "matematyka lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 100.0
+        }
+      },
+      {
+        "class_id": "b1",
+        "name": "Klasa b1 (kajakarstwo slalomowe – sportowa)",
+        "profile": "kajakarstwo slalomowe – sportowa",
+        "extensions": [
+          "biologia lub geografia",
+          "matematyka lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 100.0
+        }
+      },
+      {
+        "class_id": "b3",
+        "name": "Klasa b3 (piłka nożna – sportowa, dziewczęta)",
+        "profile": "piłka nożna – sportowa, dziewczęta",
+        "extensions": [
+          "biologia lub geografia",
+          "matematyka lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 62.0
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (ogólnodostępna – inne dyscypliny sportu)",
+        "profile": "ogólnodostępna – inne dyscypliny sportu",
+        "extensions": [
+          "biologia lub geografia",
+          "matematyka lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 136.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "xli_liceum_ogolnoksztalcace_w_krakowie",
+    "name": "XLI Liceum Ogólnokształcące w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (polsko-angielsko-biologiczny)",
+        "profile": "polsko-angielsko-biologiczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.6
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (matematyczno-geograficzno-angielski)",
+        "profile": "matematyczno-geograficzno-angielski",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 163.15
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczno-angielski)",
+        "profile": "biologiczno-chemiczno-angielski",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.3
+        }
+      },
+      {
+        "class_id": "d1",
+        "name": "Klasa d1 (językowy – hiszpański)",
+        "profile": "językowy – hiszpański",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "język hiszpański"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "drugi język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.15
+        }
+      },
+      {
+        "class_id": "d2",
+        "name": "Klasa d2 (językowy – włoski)",
+        "profile": "językowy – włoski",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "język włoski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "drugi język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "xlii_liceum_ogolnoksztalcace_im_adama_mickiewicza_w_krakowie",
+    "name": "XLII Liceum Ogólnokształcące im. Adama Mickiewicza w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (ekonomiczna)",
+        "profile": "ekonomiczna",
+        "extensions": [
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.65
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-chemiczna)",
+        "profile": "biologiczno-chemiczna",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 172.8
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (matematyczno-fizyczna)",
+        "profile": "matematyczno-fizyczna",
+        "extensions": [
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.15
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (humanistyczno-architektoniczna)",
+        "profile": "humanistyczno-architektoniczna",
+        "extensions": [
+          "język polski",
+          "historia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia lub wiedza o społeczeństwie lub język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 167.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "xliii_liceum_ogolnoksztalcace_im_zofii_chrzanowskiej_w_krakowie",
+    "name": "XLIII Liceum Ogólnokształcące im. Zofii Chrzanowskiej w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (matematyczno-informatyczno-angielski)",
+        "profile": "matematyczno-informatyczno-angielski",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 153.05
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-polsko-angielski)",
+        "profile": "biologiczno-polsko-angielski",
+        "extensions": [
+          "biologia",
+          "język polski",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 157.15
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (polsko-historyczno-angielski)",
+        "profile": "polsko-historyczno-angielski",
+        "extensions": [
+          "język polski",
+          "historia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 144.3
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (geograficzno-WOS-owy-angielski)",
+        "profile": "geograficzno-WOS-owy-angielski",
+        "extensions": [
+          "geografia",
+          "wiedza o społeczeństwie",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 147.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "xliv_liceum_ogolnoksztalcace_im_ks_stanislawa_konarskiego_w_krakowie",
+    "name": "XLIV Liceum Ogólnokształcące im. Ks. Stanisława Konarskiego w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (matematyczno-fizyczno-angielski)",
+        "profile": "matematyczno-fizyczno-angielski",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 163.65
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 165.3
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (prawniczo-lingwistyczny)",
+        "profile": "prawniczo-lingwistyczny",
+        "extensions": [
+          "język angielski",
+          "język niemiecki",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "wiedza o społeczeństwie",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 150.55
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (matematyczno-angielsko-geograficzny)",
+        "profile": "matematyczno-angielsko-geograficzny",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 162.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "xlv_liceum_ogolnoksztalcace_im_wislawy_szymborskiej_w_krakowie",
+    "name": "XLV Liceum Ogólnokształcące im. Wisławy Szymborskiej w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (biologiczno-chemiczno-matematyczny)",
+        "profile": "biologiczno-chemiczno-matematyczny",
+        "extensions": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 149.6
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (humanistyczny)",
+        "profile": "humanistyczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 133.7
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (psychologiczno-biologiczny)",
+        "profile": "psychologiczno-biologiczny",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "xlvii_liceum_ogolnoksztalcace_w_krakowie",
+    "name": "XLVII Liceum Ogólnokształcące w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (matematyczno-informatyczny)",
+        "profile": "matematyczno-informatyczny",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 70.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (ekonomiczno-informatyczny)",
+        "profile": "ekonomiczno-informatyczny",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia geografia historia informatyka język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (medialno-językowy)",
+        "profile": "medialno-językowy",
+        "extensions": [
+          "język polski",
+          "język angielski",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia geografia historia informatyka język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 60.35
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (artystyczno-humanistyczny)",
+        "profile": "artystyczno-humanistyczny",
+        "extensions": [
+          "język polski",
+          "język francuski",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia geografia historia informatyka język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "xlvi_liceum_ogolnoksztalcace_w_krakowie",
+    "name": "XLVI Liceum Ogólnokształcące w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (geograficzno-historyczna)",
+        "profile": "geograficzno-historyczna",
+        "extensions": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.5
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (historyczna)",
+        "profile": "historyczna",
+        "extensions": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 144.95
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (biologiczno-chemiczna)",
+        "profile": "biologiczno-chemiczna",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 160.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "kostka_publiczne_liceum_ogolnoksztalcace_jezuitow_im_sw_stanislawa_kostki_w_krakowie",
+    "name": "KOSTKA Publiczne Liceum Ogólnokształcące Jezuitów im. św. Stanisława Kostki w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (matematyczno-informatyczny)",
+        "profile": "matematyczno-informatyczny",
+        "extensions": [
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 166.25
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (biologiczno-chemiczny)",
+        "profile": "biologiczno-chemiczny",
+        "extensions": [
+          "biologia",
+          "chemia",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 171.45
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (prawny)",
+        "profile": "prawny",
+        "extensions": [
+          "historia",
+          "wiedza o społeczeństwie",
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 161.6
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (ekonomiczny)",
+        "profile": "ekonomiczny",
+        "extensions": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 168.25
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (biologiczno-geograficzny)",
+        "profile": "biologiczno-geograficzny",
+        "extensions": [
+          "biologia",
+          "geografia",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 164.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "publiczne_liceum_ogolnoksztalcace_siostr_prezentek_w_krakowie",
+    "name": "Publiczne Liceum Ogólnokształcące Sióstr Prezentek w Krakowie",
+    "type": "liceum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (humanistyczna)",
+        "profile": "humanistyczna",
+        "extensions": [
+          "historia",
+          "język polski",
+          "język angielski lub WOS"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (medyczna)",
+        "profile": "medyczna",
+        "extensions": [
+          "matematyka lub język polski",
+          "biologia lub geografia",
+          "chemia lub język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia lub geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (politechniczna)",
+        "profile": "politechniczna",
+        "extensions": [
+          "matematyka",
+          "język angielski",
+          "fizyka lub informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka lub informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_mechaniczne_nr_30_w_zsm_nr_4_w_krakowie",
+    "name": "Technikum Mechaniczne nr 30 w ZSM nr 4 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a1",
+        "name": "Klasa a1 (technik logistyk)",
+        "profile": "technik logistyk",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 118.7
+        }
+      },
+      {
+        "class_id": "a2",
+        "name": "Klasa a2 (technik lotniskowych służb operacyjnych)",
+        "profile": "technik lotniskowych służb operacyjnych",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 124.7
+        }
+      },
+      {
+        "class_id": "b1",
+        "name": "Klasa b1 (technik awionik)",
+        "profile": "technik awionik",
+        "extensions": [
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 125.35
+        }
+      },
+      {
+        "class_id": "b2",
+        "name": "Klasa b2 (technik mechanik lotniczy)",
+        "profile": "technik mechanik lotniczy",
+        "extensions": [
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 117.65
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 106.8
+        }
+      },
+      {
+        "class_id": "d2",
+        "name": "Klasa d2 (technik spawalnictwa)",
+        "profile": "technik spawalnictwa",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 62.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_budowlane_nr_1_w_zs_architektoniczno_budowlanych_nr_1_w_krakowie",
+    "name": "Technikum Budowlane nr 1 w ZS Architektoniczno-Budowlanych nr 1 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik aranżacji wnętrz)",
+        "profile": "technik aranżacji wnętrz",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 126.1
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik budownictwa)",
+        "profile": "technik budownictwa",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 132.35
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik chłodnictwa i klimatyzacji)",
+        "profile": "technik chłodnictwa i klimatyzacji",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 98.05
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technik technologii drewna)",
+        "profile": "technik technologii drewna",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 115.75
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik inżynierii sanitarnej)",
+        "profile": "technik inżynierii sanitarnej",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 96.6
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (technik architektury krajobrazu)",
+        "profile": "technik architektury krajobrazu",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 100.3
+        }
+      },
+      {
+        "class_id": "g",
+        "name": "Klasa g (technik gospodarki nieruchomościami)",
+        "profile": "technik gospodarki nieruchomościami",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 108.15
+        }
+      },
+      {
+        "class_id": "h",
+        "name": "Klasa h (technik urządzeń i systemów energetyki odnawialnej)",
+        "profile": "technik urządzeń i systemów energetyki odnawialnej",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 119.45
+        }
+      },
+      {
+        "class_id": "i",
+        "name": "Klasa i (technik renowacji elementów architektury)",
+        "profile": "technik renowacji elementów architektury",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 107.85
+        }
+      },
+      {
+        "class_id": "j",
+        "name": "Klasa j (technik robót wykończeniowych w budownictwie)",
+        "profile": "technik robót wykończeniowych w budownictwie",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 96.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_nr_2_im_studenckiego_komitetu_solidarnosci_w_krakowie",
+    "name": "Technikum nr 2 im. Studenckiego Komitetu Solidarności w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 48.0
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik architektury krajobrazu)",
+        "profile": "technik architektury krajobrazu",
+        "extensions": [
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 51.9
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik budownictwa)",
+        "profile": "technik budownictwa",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 63.0
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 52.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_chemiczne_i_ochrony_srodowiska_nr_3_w_zespole_szkol_chemicznych_im_marii_sklodowskiej_curie_w_krakowie",
+    "name": "Technikum Chemiczne i Ochrony Środowiska nr 3 w Zespole Szkół Chemicznych im. Marii Skłodowskiej-Curie w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik analityk)",
+        "profile": "technik analityk",
+        "extensions": [
+          "matematyka",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 161.05
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik technologii środków kosmetycznych)",
+        "profile": "technik technologii środków kosmetycznych",
+        "extensions": [
+          "matematyka",
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_ekonomiczno_hotelarskie_nr_4_im_mikolaja_kopernika_w_krakowie",
+    "name": "Technikum Ekonomiczno-Hotelarskie nr 4 im. Mikołaja Kopernika w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik ekonomista)",
+        "profile": "technik ekonomista",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 145.85
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik rachunkowości)",
+        "profile": "technik rachunkowości",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 130.05
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik hotelarstwa)",
+        "profile": "technik hotelarstwa",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 126.75
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technik organizacji turystyki)",
+        "profile": "technik organizacji turystyki",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 128.4
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik ekonomista/rachunkowości)",
+        "profile": "technik ekonomista/rachunkowości",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 126.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_ekonomiczno_handlowe_nr_5_w_zse_nr_2_w_krakowie",
+    "name": "Technikum Ekonomiczno-Handlowe nr 5 w ZSE nr 2 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik ekonomista)",
+        "profile": "technik ekonomista",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 116.3
+        }
+      },
+      {
+        "class_id": "h",
+        "name": "Klasa h (technik handlowiec)",
+        "profile": "technik handlowiec",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 70.65
+        }
+      },
+      {
+        "class_id": "hot",
+        "name": "Klasa hot (technik hotelarstwa)",
+        "profile": "technik hotelarstwa",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 82.7
+        }
+      },
+      {
+        "class_id": "l",
+        "name": "Klasa l (technik logistyk)",
+        "profile": "technik logistyk",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 101.0
+        }
+      },
+      {
+        "class_id": "lot",
+        "name": "Klasa lot (technik lotniskowych służb operacyjnych)",
+        "profile": "technik lotniskowych służb operacyjnych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 120.9
+        }
+      },
+      {
+        "class_id": "r",
+        "name": "Klasa r (technik rachunkowości)",
+        "profile": "technik rachunkowości",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 83.3
+        }
+      },
+      {
+        "class_id": "t",
+        "name": "Klasa t (technik organizacji turystyki)",
+        "profile": "technik organizacji turystyki",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 95.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_elektryczno_elektroniczne_nr_7_w_krakowie",
+    "name": "Technikum Elektryczno-Elektroniczne nr 7 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik automatyk)",
+        "profile": "technik automatyk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.1
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik elektronik)",
+        "profile": "technik elektronik",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 141.7
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik programista)",
+        "profile": "technik programista",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 136.1
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 132.85
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik urządzeń i systemów energetyki odnawialnej)",
+        "profile": "technik urządzeń i systemów energetyki odnawialnej",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 122.45
+        }
+      },
+      {
+        "class_id": "f",
+        "name": "Klasa f (technik elektryk)",
+        "profile": "technik elektryk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 139.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_elektryczne_nr_8_w_zs_elektrycznych_nr_2_w_krakowie",
+    "name": "Technikum Elektryczne nr 8 w ZS Elektrycznych nr 2 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik elektronik)",
+        "profile": "technik elektronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 49.3
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik elektryk)",
+        "profile": "technik elektryk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 44.3
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 18.55
+        }
+      },
+      {
+        "class_id": "m",
+        "name": "Klasa m (technik mechatronik)",
+        "profile": "technik mechatronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 53.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_energetyczno_elektroniczne_nr_9_im_tadeusza_kosciuszki_w_krakowie",
+    "name": "Technikum Energetyczno-Elektroniczne nr 9 im. Tadeusza Kościuszki w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (technik elektryk)",
+        "profile": "technik elektryk",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 153.8
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (technik cyberbezpieczeństwa)",
+        "profile": "technik cyberbezpieczeństwa",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 159.0
+        }
+      },
+      {
+        "class_id": "c",
+        "name": "Klasa c (technik elektronik)",
+        "profile": "technik elektronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 156.0
+        }
+      },
+      {
+        "class_id": "d",
+        "name": "Klasa d (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 149.65
+        }
+      },
+      {
+        "class_id": "e",
+        "name": "Klasa e (technik programista)",
+        "profile": "technik programista",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 146.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_gastronomiczno_hotelarskie_nr_10",
+    "name": "Technikum Gastronomiczno-Hotelarskie nr 10",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 65.25
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 70.15
+        }
+      },
+      {
+        "class_id": "G",
+        "name": "Klasa G (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 65.25
+        }
+      },
+      {
+        "class_id": "H",
+        "name": "Klasa H (technik hotelarstwa)",
+        "profile": "technik hotelarstwa",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 88.35
+        }
+      },
+      {
+        "class_id": "I",
+        "name": "Klasa I (technik hotelarstwa)",
+        "profile": "technik hotelarstwa",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 57.0
+        }
+      },
+      {
+        "class_id": "J",
+        "name": "Klasa J (technik usług kelnerskich)",
+        "profile": "technik usług kelnerskich",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "T",
+        "name": "Klasa T (technik organizacji turystyki)",
+        "profile": "technik organizacji turystyki",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 75.65
+        }
+      },
+      {
+        "class_id": "K",
+        "name": "Klasa K (technik technologii żywności)",
+        "profile": "technik technologii żywności",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "technika",
+          "wiedza o społeczeństwie"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 76.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_gastronomiczne_nr_11_w_zsg_nr_2_w_krakowie",
+    "name": "Technikum Gastronomiczne nr 11 w ZSG nr 2 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "edukacja dla bezpieczeństwa",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "muzyka",
+          "plastyka",
+          "technika",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 125.95
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski",
+          "biologia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "edukacja dla bezpieczeństwa",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "muzyka",
+          "plastyka",
+          "technika",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 103.55
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "edukacja dla bezpieczeństwa",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "muzyka",
+          "plastyka",
+          "technika",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 90.3
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "edukacja dla bezpieczeństwa",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "muzyka",
+          "plastyka",
+          "technika",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 53.5
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (technik usług kelnerskich)",
+        "profile": "technik usług kelnerskich",
+        "extensions": [
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "edukacja dla bezpieczeństwa",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "muzyka",
+          "plastyka",
+          "technika",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 46.6
+        }
+      },
+      {
+        "class_id": "TŻA",
+        "name": "Klasa TŻA (technik technologii żywności)",
+        "profile": "technik technologii żywności",
+        "extensions": [
+          "chemia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "chemia",
+          "fizyka",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy",
+          "język niemiecki",
+          "muzyka",
+          "plastyka",
+          "wiedza o społeczeństwie",
+          "wychowanie fizyczne"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 79.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_geodezji_i_ksztaltowania_srodowiska_nr_12_w_krakowie",
+    "name": "Technikum Geodezji i Kształtowania Środowiska nr 12 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "G",
+        "name": "Klasa G (technik geodeta)",
+        "profile": "technik geodeta",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 100.95
+        }
+      },
+      {
+        "class_id": "L",
+        "name": "Klasa L (technik logistyk)",
+        "profile": "technik logistyk",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 64.65
+        }
+      },
+      {
+        "class_id": "P",
+        "name": "Klasa P (technik eksploatacji portów i terminali)",
+        "profile": "technik eksploatacji portów i terminali",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 47.75
+        }
+      },
+      {
+        "class_id": "O",
+        "name": "Klasa O (technik ochrony środowiska)",
+        "profile": "technik ochrony środowiska",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 39.55
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_inzynierii_srodowiska_nr_13_w_krakowie",
+    "name": "Technikum Inżynierii Środowiska nr 13 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (technik architektury krajobrazu i arborystyki)",
+        "profile": "technik architektury krajobrazu i arborystyki",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.95
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (technik urządzeń i systemów energetyki odnawialnej)",
+        "profile": "technik urządzeń i systemów energetyki odnawialnej",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 42.85
+        }
+      },
+      {
+        "class_id": "F",
+        "name": "Klasa F (technik usług fryzjerskich)",
+        "profile": "technik usług fryzjerskich",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 53.1
+        }
+      },
+      {
+        "class_id": "O",
+        "name": "Klasa O (technik agroogrodnictwa)",
+        "profile": "technik agroogrodnictwa",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 48.6
+        }
+      },
+      {
+        "class_id": "R",
+        "name": "Klasa R (technik reklamy)",
+        "profile": "technik reklamy",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 36.1
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_lacznosci_nr_14_im_obroncow_poczty_polskiej_w_gdansku_w_krakowie",
+    "name": "Technikum Łączności nr 14 im. Obrońców Poczty Polskiej w Gdańsku w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "C",
+        "name": "Klasa C (technik cyberbezpieczeństwa)",
+        "profile": "technik cyberbezpieczeństwa",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.5
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (technik elektronik)",
+        "profile": "technik elektronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 157.5
+        }
+      },
+      {
+        "class_id": "I",
+        "name": "Klasa I (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 161.5
+        }
+      },
+      {
+        "class_id": "P",
+        "name": "Klasa P (technik programista)",
+        "profile": "technik programista",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 170.8
+        }
+      },
+      {
+        "class_id": "T",
+        "name": "Klasa T (technik teleinformatyk)",
+        "profile": "technik teleinformatyk",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 156.05
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_mechaniczne_nr_15_w_zsm_nr_1_w_krakowie",
+    "name": "Technikum Mechaniczne nr 15 w ZSM nr 1 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "TEM",
+        "name": "Klasa TEM (technik elektromobilności)",
+        "profile": "technik elektromobilności",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 107.55
+        }
+      },
+      {
+        "class_id": "TAU",
+        "name": "Klasa TAU (technik automatyk)",
+        "profile": "technik automatyk",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 119.85
+        }
+      },
+      {
+        "class_id": "TME",
+        "name": "Klasa TME (technik mechanik)",
+        "profile": "technik mechanik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 92.2
+        }
+      },
+      {
+        "class_id": "TM",
+        "name": "Klasa TM (technik mechatronik)",
+        "profile": "technik mechatronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 134.8
+        }
+      },
+      {
+        "class_id": "TP grupa 1",
+        "name": "Klasa TP grupa 1 (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 105.6
+        }
+      },
+      {
+        "class_id": "TP grupa 2",
+        "name": "Klasa TP grupa 2 (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "język angielski",
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 122.3
+        }
+      },
+      {
+        "class_id": "TRO",
+        "name": "Klasa TRO (technik robotyk)",
+        "profile": "technik robotyk",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 100.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_nr_16_im_ks_dr_jana_kaczkowskiego_w_krakowie",
+    "name": "Technikum nr 16 im. ks. dr. Jana Kaczkowskiego w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "ta",
+        "name": "Klasa ta (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 75.25
+        }
+      },
+      {
+        "class_id": "te",
+        "name": "Klasa te (technik usług fryzjerskich)",
+        "profile": "technik usług fryzjerskich",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 87.2
+        }
+      },
+      {
+        "class_id": "tl",
+        "name": "Klasa tl (technik logistyk)",
+        "profile": "technik logistyk",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 91.2
+        }
+      },
+      {
+        "class_id": "tt",
+        "name": "Klasa tt (technik organizacji turystyki)",
+        "profile": "technik organizacji turystyki",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 90.0
+        }
+      },
+      {
+        "class_id": "th",
+        "name": "Klasa th (technik handlowiec)",
+        "profile": "technik handlowiec",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 38.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_mechaniczne_nr_17_w_zsm_nr_3_w_krakowie",
+    "name": "Technikum Mechaniczne nr 17 w ZSM nr 3 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "Ta",
+        "name": "Klasa Ta (technik mechatronik)",
+        "profile": "technik mechatronik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 62.55
+        }
+      },
+      {
+        "class_id": "Tb/Td",
+        "name": "Klasa Tb/Td (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 35.6
+        }
+      },
+      {
+        "class_id": "Tc/Ti",
+        "name": "Klasa Tc/Ti (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 70.7
+        }
+      },
+      {
+        "class_id": "Te",
+        "name": "Klasa Te (technik elektromobilności)",
+        "profile": "technik elektromobilności",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 67.3
+        }
+      },
+      {
+        "class_id": "Tl",
+        "name": "Klasa Tl (technik awionik)",
+        "profile": "technik awionik",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 77.3
+        }
+      },
+      {
+        "class_id": "LST",
+        "name": "Klasa LST (technik mechanik lotniczy)",
+        "profile": "technik mechanik lotniczy",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.85
+        }
+      },
+      {
+        "class_id": "Tr",
+        "name": "Klasa Tr (technik robotyk)",
+        "profile": "technik robotyk",
+        "extensions": [
+          "matematyka",
+          "fizyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "Tp",
+        "name": "Klasa Tp (technik programista)",
+        "profile": "technik programista",
+        "extensions": [
+          "matematyka",
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 50.25
+        }
+      },
+      {
+        "class_id": "Ts",
+        "name": "Klasa Ts (technik lotniskowych służb operacyjnych)",
+        "profile": "technik lotniskowych służb operacyjnych",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 46.3
+        }
+      },
+      {
+        "class_id": "Tt",
+        "name": "Klasa Tt (technik eksploatacji portów i terminali)",
+        "profile": "technik eksploatacji portów i terminali",
+        "extensions": [
+          "język angielski",
+          "geografia"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_odziezowe_nr_18_w_zso_nr_1_w_krakowie",
+    "name": "Technikum Odzieżowe nr 18 w ZSO nr 1 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "TF",
+        "name": "Klasa TF (technik usług fryzjerskich)",
+        "profile": "technik usług fryzjerskich",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 30.3
+        }
+      },
+      {
+        "class_id": "TO",
+        "name": "Klasa TO (technik przemysłu mody)",
+        "profile": "technik przemysłu mody",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 91.2
+        }
+      },
+      {
+        "class_id": "TS",
+        "name": "Klasa TS (technik stylista)",
+        "profile": "technik stylista",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 108.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_poligraficzno_medialne_nr_20_im_z_klemensiewicza_w_krakowie",
+    "name": "Technikum Poligraficzno-Medialne nr 20 im. Z. Klemensiewicza w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "AG",
+        "name": "Klasa AG (technik grafiki i poligrafii cyfrowej)",
+        "profile": "technik grafiki i poligrafii cyfrowej",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 116.55
+        }
+      },
+      {
+        "class_id": "BCF",
+        "name": "Klasa BCF (technik fotografii i multimediów)",
+        "profile": "technik fotografii i multimediów",
+        "extensions": [
+          "informatyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 94.3
+        }
+      },
+      {
+        "class_id": "DR",
+        "name": "Klasa DR (technik reklamy)",
+        "profile": "technik reklamy",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 91.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_przemyslu_spozywczego_nr_22_im_sw_maksymiliana_marii_kolbe_w_zsps_w_krakowie",
+    "name": "Technikum Przemysłu Spożywczego nr 22 im. św. Maksymiliana Marii Kolbe w ZSPS w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "TA",
+        "name": "Klasa TA (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "technika",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.3
+        }
+      },
+      {
+        "class_id": "TA integracyjna",
+        "name": "Klasa TA integracyjna (technik żywienia i usług gastronomicznych)",
+        "profile": "technik żywienia i usług gastronomicznych",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "technika",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 60.25
+        }
+      },
+      {
+        "class_id": "TB",
+        "name": "Klasa TB (technik usług kelnerskich)",
+        "profile": "technik usług kelnerskich",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "technika",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 77.6
+        }
+      },
+      {
+        "class_id": "TB integracyjna",
+        "name": "Klasa TB integracyjna (technik usług kelnerskich)",
+        "profile": "technik usług kelnerskich",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "technika",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 59.1
+        }
+      },
+      {
+        "class_id": "TC",
+        "name": "Klasa TC (technik technologii żywności)",
+        "profile": "technik technologii żywności",
+        "extensions": [
+          "język polski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "technika",
+          "plastyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 52.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_ksztaltowania_srodowiska_nr_24",
+    "name": "Technikum Kształtowania Środowiska Nr 24",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (technik inżynierii sanitarnej)",
+        "profile": "technik inżynierii sanitarnej",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 66.05
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (technik cyberbezpieczeństwa)",
+        "profile": "technik cyberbezpieczeństwa",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "brak potwierdzonych danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 126.7
+        }
+      },
+      {
+        "class_id": "G",
+        "name": "Klasa G (technik geolog)",
+        "profile": "technik geolog",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 77.45
+        }
+      },
+      {
+        "class_id": "I",
+        "name": "Klasa I (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 104.5
+        }
+      },
+      {
+        "class_id": "O",
+        "name": "Klasa O (technik ochrony środowiska)",
+        "profile": "technik ochrony środowiska",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 71.55
+        }
+      },
+      {
+        "class_id": "P",
+        "name": "Klasa P (technik programista AI)",
+        "profile": "technik programista AI",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 132.05
+        }
+      },
+      {
+        "class_id": "W",
+        "name": "Klasa W (technik wiertnik)",
+        "profile": "technik wiertnik",
+        "extensions": [
+          "matematyka",
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "informatyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 48.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_komunikacyjne_nr_25_w_zs_nr_1_w_krakowie",
+    "name": "Technikum Komunikacyjne nr 25 w ZS nr 1 w Krakowie",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "CB",
+        "name": "Klasa CB (technik cyberbezpieczeństwa)",
+        "profile": "technik cyberbezpieczeństwa",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 128.15
+        }
+      },
+      {
+        "class_id": "EL",
+        "name": "Klasa EL (technik elektronik)",
+        "profile": "technik elektronik",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 115.4
+        }
+      },
+      {
+        "class_id": "IA",
+        "name": "Klasa IA (technik informatyk)",
+        "profile": "technik informatyk",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 122.15
+        }
+      },
+      {
+        "class_id": "LA",
+        "name": "Klasa LA (technik logistyk – ogólna)",
+        "profile": "technik logistyk – ogólna",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 120.45
+        }
+      },
+      {
+        "class_id": "LB",
+        "name": "Klasa LB (technik logistyk – mundurowa wojskowo-policyjna)",
+        "profile": "technik logistyk – mundurowa wojskowo-policyjna",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 103.85
+        }
+      },
+      {
+        "class_id": "LW",
+        "name": "Klasa LW (technik logistyk – Oddział Przygotowania Wojskowego)",
+        "profile": "technik logistyk – Oddział Przygotowania Wojskowego",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 64.95
+        }
+      },
+      {
+        "class_id": "PA",
+        "name": "Klasa PA (technik programista – ogólna)",
+        "profile": "technik programista – ogólna",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 121.65
+        }
+      },
+      {
+        "class_id": "ME",
+        "name": "Klasa ME (technik mechatronik)",
+        "profile": "technik mechatronik",
+        "extensions": [
+          "matematyka"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 150.9
+        }
+      },
+      {
+        "class_id": "TK",
+        "name": "Klasa TK (technik transportu kolejowego)",
+        "profile": "technik transportu kolejowego",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 107.9
+        }
+      },
+      {
+        "class_id": "PS",
+        "name": "Klasa PS (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "język angielski"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 96.65
+        }
+      }
+    ]
+  },
+  {
+    "id": "technikum_pbp_chemobudowa_krakow",
+    "name": "Technikum PBP \"Chemobudowa-Kraków\"",
+    "type": "technikum",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "TE",
+        "name": "Klasa TE (technik budownictwa)",
+        "profile": "technik budownictwa",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TE",
+        "name": "Klasa TE (technik inżynierii sanitarnej)",
+        "profile": "technik inżynierii sanitarnej",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TE",
+        "name": "Klasa TE (technik pojazdów samochodowych)",
+        "profile": "technik pojazdów samochodowych",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TF",
+        "name": "Klasa TF (technik aranżacji wnętrz)",
+        "profile": "technik aranżacji wnętrz",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TG",
+        "name": "Klasa TG (technik programista)",
+        "profile": "technik programista",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TH",
+        "name": "Klasa TH (technik logistyk)",
+        "profile": "technik logistyk",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TH",
+        "name": "Klasa TH (technik handlowiec)",
+        "profile": "technik handlowiec",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TI",
+        "name": "Klasa TI (technik gospodarki nieruchomościami)",
+        "profile": "technik gospodarki nieruchomościami",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TJ",
+        "name": "Klasa TJ (technik chłodnictwa i klimatyzacji)",
+        "profile": "technik chłodnictwa i klimatyzacji",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TJ",
+        "name": "Klasa TJ (technik urządzeń i systemów energetyki odnawialnej)",
+        "profile": "technik urządzeń i systemów energetyki odnawialnej",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "TK",
+        "name": "Klasa TK (technik architekt)",
+        "profile": "technik architekt",
+        "extensions": [
+          "brak potwierdzonych danych"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "geografia/historia/WOS/informatyka zależnie od rozszerzenia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_1_w_krakowie",
+    "name": "Branżowa Szkoła I stopnia nr 1 w Krakowie",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "MI",
+        "name": "Klasa MI (monter sieci i instalacji sanitarnych)",
+        "profile": "monter sieci i instalacji sanitarnych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 57.0
+        }
+      },
+      {
+        "class_id": "MT",
+        "name": "Klasa MT (murarz-tynkarz)",
+        "profile": "murarz-tynkarz",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 37.1
+        }
+      },
+      {
+        "class_id": "S",
+        "name": "Klasa S (stolarz)",
+        "profile": "stolarz",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 45.0
+        }
+      },
+      {
+        "class_id": "Z",
+        "name": "Klasa Z (monter zabudowy i robót wykończeniowych w budownictwie)",
+        "profile": "monter zabudowy i robót wykończeniowych w budownictwie",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "język obcy",
+          "technika"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 37.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_2",
+    "name": "Branżowa Szkoła I stopnia nr 2",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "C",
+        "name": "Klasa C (cukiernik)",
+        "profile": "cukiernik",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 57.85
+        }
+      },
+      {
+        "class_id": "K",
+        "name": "Klasa K (kucharz)",
+        "profile": "kucharz",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 37.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_3_im_erazma_jozefa_jerzmanowskiego",
+    "name": "Branżowa Szkoła I stopnia nr 3 im. Erazma Józefa Jerzmanowskiego",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "a",
+        "name": "Klasa a (mechanik pojazdów samochodowych)",
+        "profile": "mechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 27.1
+        }
+      },
+      {
+        "class_id": "b",
+        "name": "Klasa b (fryzjer)",
+        "profile": "fryzjer",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "biologia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 39.0
+        }
+      },
+      {
+        "class_id": "k",
+        "name": "Klasa k (elektromechanik pojazdów samochodowych)",
+        "profile": "elektromechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 36.5
+        }
+      },
+      {
+        "class_id": "s",
+        "name": "Klasa s (sprzedawca – klasa integracyjna)",
+        "profile": "sprzedawca – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "geografia"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 33.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_5",
+    "name": "Branżowa Szkoła I stopnia nr 5",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "br",
+        "name": "Klasa br (elektronik)",
+        "profile": "elektronik",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 32.45
+        }
+      },
+      {
+        "class_id": "br",
+        "name": "Klasa br (elektryk)",
+        "profile": "elektryk",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 73.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_9",
+    "name": "Branżowa Szkoła I stopnia nr 9",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "da",
+        "name": "Klasa da (ogrodnik terenów zieleni)",
+        "profile": "ogrodnik terenów zieleni",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 46.0
+        }
+      },
+      {
+        "class_id": "df",
+        "name": "Klasa df (fryzjer)",
+        "profile": "fryzjer",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 42.9
+        }
+      },
+      {
+        "class_id": "dl",
+        "name": "Klasa dl (florysta)",
+        "profile": "florysta",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 50.45
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_10",
+    "name": "Branżowa Szkoła I stopnia nr 10",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "ak",
+        "name": "Klasa ak (kucharz)",
+        "profile": "kucharz",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.45
+        }
+      },
+      {
+        "class_id": "akm",
+        "name": "Klasa akm (kucharz – pracownik młodociany)",
+        "profile": "kucharz – pracownik młodociany",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 59.75
+        }
+      },
+      {
+        "class_id": "ck",
+        "name": "Klasa ck (cukiernik)",
+        "profile": "cukiernik",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 36.85
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_11",
+    "name": "Branżowa Szkoła I stopnia nr 11",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "Ic",
+        "name": "Klasa Ic (cukiernik)",
+        "profile": "cukiernik",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 57.85
+        }
+      },
+      {
+        "class_id": "Id",
+        "name": "Klasa Id (kucharz)",
+        "profile": "kucharz",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 37.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_17",
+    "name": "Branżowa Szkoła I stopnia nr 17",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "Ba",
+        "name": "Klasa Ba (mechanik pojazdów samochodowych)",
+        "profile": "mechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 31.05
+        }
+      },
+      {
+        "class_id": "Bb",
+        "name": "Klasa Bb (elektromechanik pojazdów samochodowych)",
+        "profile": "elektromechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 38.05
+        }
+      },
+      {
+        "class_id": "Bd",
+        "name": "Klasa Bd (mechanik pojazdów samochodowych)",
+        "profile": "mechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 41.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_21",
+    "name": "Branżowa Szkoła I stopnia nr 21",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "fz",
+        "name": "Klasa fz (fotograf)",
+        "profile": "fotograf",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 60.85
+        }
+      },
+      {
+        "class_id": "iz",
+        "name": "Klasa iz (operator procesów introligatorskich – klasa integracyjna)",
+        "profile": "operator procesów introligatorskich – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 35.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_23",
+    "name": "Branżowa Szkoła I stopnia nr 23",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "CUK",
+        "name": "Klasa CUK (cukiernik – klasa integracyjna)",
+        "profile": "cukiernik – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 56.0
+        }
+      },
+      {
+        "class_id": "KEL",
+        "name": "Klasa KEL (kelner – klasa integracyjna)",
+        "profile": "kelner – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 83.85
+        }
+      },
+      {
+        "class_id": "KUCH",
+        "name": "Klasa KUCH (kucharz – klasa integracyjna)",
+        "profile": "kucharz – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 16.55
+        }
+      },
+      {
+        "class_id": "PIEK",
+        "name": "Klasa PIEK (piekarz – klasa integracyjna)",
+        "profile": "piekarz – klasa integracyjna",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 71.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_pbp_chemobudowa_krakow",
+    "name": "Branżowa Szkoła I stopnia PBP \"Chemobudowa-Kraków\"",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "A",
+        "name": "Klasa A (fryzjer)",
+        "profile": "fryzjer",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "B",
+        "name": "Klasa B (magazynier-logistyk)",
+        "profile": "magazynier-logistyk",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "C",
+        "name": "Klasa C (monter zabudowy i robót wykończeniowych w budownictwie)",
+        "profile": "monter zabudowy i robót wykończeniowych w budownictwie",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "D",
+        "name": "Klasa D (mechanik pojazdów samochodowych)",
+        "profile": "mechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      },
+      {
+        "class_id": "E",
+        "name": "Klasa E (monter sieci i instalacji sanitarnych)",
+        "profile": "monter sieci i instalacji sanitarnych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "branzowa_szkola_i_stopnia_nr_14",
+    "name": "Branżowa Szkoła I stopnia nr 14",
+    "type": "branzowa",
+    "city": "Kraków",
+    "classes": [
+      {
+        "class_id": "Es",
+        "name": "Klasa Es (elektromechanik pojazdów samochodowych)",
+        "profile": "elektromechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 36.95
+        }
+      },
+      {
+        "class_id": "Ms",
+        "name": "Klasa Ms (mechanik pojazdów samochodowych)",
+        "profile": "mechanik pojazdów samochodowych",
+        "extensions": [
+          "brak"
+        ],
+        "scored_subjects": [
+          "brak danych"
+        ],
+        "historical_cutoffs": {
+          "2026/2027": 24.4
+        }
+      }
+    ]
+  }
+]

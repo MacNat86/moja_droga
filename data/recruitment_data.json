@@ -1,0 +1,26 @@
+{
+  "exam_weights": {
+    "polish": 0.35,
+    "mathematics": 0.35,
+    "foreign_language": 0.30
+  },
+  "grade_points": {
+    "6": 18,
+    "5": 17,
+    "4": 14,
+    "3": 8,
+    "2": 2
+  },
+  "additional_points": {
+    "honors_strip": 7,
+    "volunteering": 3,
+    "achievements": {
+      "Brak": 0,
+      "Olimpiada przedmiotowa (szczebel centralny)": 18,
+      "Konkurs wojewódzki (laureat/1. miejsce)": 10,
+      "Konkurs wojewódzki (finalista)": 7,
+      "Wysokie osiągnięcie sportowe lub artystyczne": 5,
+      "Inne uznawane osiągnięcie": 2
+    }
+  }
+}
