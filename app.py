@@ -31,11 +31,10 @@ GRADE_POINTS = {
 def match_requirement_to_user_subject(req_str: str) -> str:
     """
     Rygorystycznie mapuje ciąg tekstowy z wymogów klasy na konkretny przedmiot ze świadectwa ucznia.
-    Zapobiega przypadkowemu zastępowaniu przedmiotów ścisłych/humanistycznych przez języki obce oraz myleniu WF z Fizyką.
     """
     req = str(req_str).lower().strip()
 
-    # 1. NAJPIERW sprawdzamy nazwy wielowyrazowe i skróty (zanim krótkie fragmenty jak "fiz" przechwycą słowa)
+    # 1. NAJPIERW sprawdzamy nazwy wielowyrazowe i skróty
     if "wychowanie fizyczne" in req or req == "wf":
         return "Wychowanie fizyczne"
     if "edukacja dla bezpieczeństwa" in req or req == "edb":
@@ -45,7 +44,7 @@ def match_requirement_to_user_subject(req_str: str) -> str:
     if "drugi" in req:
         return "Drugi język obcy"
 
-    # 2. Przedmioty jednowyrazowe (ścisłe dopasowanie po nazwie/skrócie)
+    # 2. Przedmioty jednowyrazowe
     if "fizyka" in req or req == "fiz":
         return "Fizyka"
     if "geografia" in req or "geo" in req:
@@ -78,15 +77,11 @@ def match_requirement_to_user_subject(req_str: str) -> str:
 
 def calculate_class_score(grades: dict, exam_pts: float, achieve_pts: float, cls_info: dict):
     """
-    Wylicza punkty rekrutacyjne dedykowane dla konkretnej klasy:
-    - Język polski (obowiązkowy)
-    - Matematyka (obowiązkowa)
-    - 2 przedmioty wskazane przez profil/wymagania klasy (lub najlepsze pozostałe w przypadku braku danych)
+    Wylicza punkty rekrutacyjne dedykowane dla konkretnej klasy.
     """
     p_pol = GRADE_POINTS.get(grades.get("Język polski", "4 (dobry)"), 14)
     p_mat = GRADE_POINTS.get(grades.get("Matematyka", "4 (dobry)"), 14)
 
-    # Najpierw sprawdzamy, czy w JSONie jest jawna lista 'counted_subjects', a jeśli nie – bierzemy 'extensions'
     req_list = cls_info.get("counted_subjects") or cls_info.get("extensions") or []
 
     counted_subjects = []
@@ -105,14 +100,13 @@ def calculate_class_score(grades: dict, exam_pts: float, achieve_pts: float, cls
             counted_subjects.append(mapped_user_sub)
             used_user_subject_keys.append(mapped_user_sub)
 
-    # Krok B: Jeśli profil podał mniej niż 2 pasujące przedmioty, uzupełniamy najwyższymi ocenami z pozostałych
+    # Krok B: Uzupełnienie do 2 przedmiotów
     if len(counted_subjects) < 2:
         remaining = []
         for sub, val in grades.items():
             if sub not in used_user_subject_keys:
                 remaining.append((GRADE_POINTS.get(val, 0), sub))
 
-        # Sortowanie po punktach malejąco
         remaining.sort(key=lambda x: x[0], reverse=True)
 
         needed = 2 - len(counted_subjects)
@@ -123,6 +117,25 @@ def calculate_class_score(grades: dict, exam_pts: float, achieve_pts: float, cls
 
     total_score = min(200.0, exam_pts + p_pol + p_mat + total_other_pts + achieve_pts)
     return total_score, counted_subjects
+
+
+# -----------------------------------------------------------------------------
+# PANEL BOCZNY (AUTOR, PRAWAM AUTORSKIE I DISCLAiMER)
+# -----------------------------------------------------------------------------
+with st.sidebar:
+    st.header("ℹ️ O projekcie")
+    st.write("**Autor:** Maciej [Twoje Nazwisko]")  # Podmień na swoje imię i nazwisko
+    st.write("📧 **Kontakt:** twoj_email@example.com") # Opcjonalnie kontakt
+    st.write("---")
+    
+    st.subheader("⚠️ Zastrzeżenie prawne")
+    st.caption(
+        "Wyniki prezentowane w kalkulatorze mają charakter wyłącznie **orientacyjny i poglądowy**. "
+        "Wyliczenia powstają na podstawie oficjalnych kryteriów oraz historycznych progów, jednak ostateczną "
+        "decyzję o przyjęciu kandydata podejmuje wyłącznie Szkolna Komisja Rekrutacyjna."
+    )
+    st.write("---")
+    st.caption("© 2026 Moja Droga. Wszelkie prawa zastrzeżone.")
 
 
 # Nagłówek główny
@@ -204,7 +217,7 @@ with tab1:
     st.session_state['achieve_pts'] = achieve_pts
     st.session_state['user_grades'] = user_grades
 
-    # Przykładowy ogólny wynik bazowy (dla 2 najlepszych ocen w ogóle)
+    # Przykładowy ogólny wynik bazowy
     base_score, base_subs = calculate_class_score(user_grades, exam_pts, achieve_pts, {"extensions": []})
     st.success(f"### Twój szacowany wynik bazowy: **{base_score:.2f} / 200 pkt**")
     st.caption(
@@ -251,7 +264,6 @@ with tab2:
                 ext_str = ", ".join(cls.get("extensions", []))
                 cutoff = cls.get("historical_cutoffs", {}).get("2026/2027", "Brak")
 
-                # Wyliczenie punktów dedykowanych dokładnie pod tę klasę
                 cls_score, cls_subs = calculate_class_score(grades, ex_pts, ac_pts, cls)
 
                 st.write(
@@ -274,6 +286,8 @@ with tab3:
     if not matched_schools or not grades:
         st.warning("Brak danych. Wypełnij najpierw kalkulator w KROKU 1 i wybierz filtry w KROKU 2.")
     else:
+        st.info("ℹ️ **Uwaga:** Przedstawione poniżej wyniki stanowią symulację i powinny być traktowane wyłącznie orientacyjnie.")
+
         report_data = []
         for school in matched_schools:
             for cls in school.get("classes", []):
