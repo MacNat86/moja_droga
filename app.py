@@ -124,8 +124,8 @@ def calculate_class_score(grades: dict, exam_pts: float, achieve_pts: float, cls
 # -----------------------------------------------------------------------------
 with st.sidebar:
     st.header("ℹ️ O projekcie")
-    st.write("**Autor:** Maciej [Twoje Nazwisko]")  # Podmień na swoje imię i nazwisko
-    st.write("📧 **Kontakt:** twoj_email@example.com") # Opcjonalnie kontakt
+    st.write("**Autor:** Maciej Natanek)  
+
     st.write("---")
     
     st.subheader("⚠️ Zastrzeżenie prawne")
